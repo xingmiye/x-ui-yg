@@ -177,14 +177,7 @@ IT-意大利       JP-日本          LT-立陶宛
 LV-拉脱维亚      NL-荷兰          NO-挪威
 PL-波兰         PT-葡萄牙        RO-罗马尼亚
 RS-塞尔维亚      SE-瑞典          SG-新加坡
-SK-斯洛伐克      US-美国          GR-希腊
-NZ-新西兰       KR-韩国          BR-巴西
-TR-土耳其       ZA-南非          IS-冰岛
-IL-以色列       MY-马来西亚       PH-菲律宾
-TH-泰国         VN-越南          AE-阿联酋
-SA-沙特阿拉伯    UA-乌克兰        RU-俄罗斯
-MX-墨西哥       AR-阿根廷        CL-智利
-CO-哥伦比亚      PE-秘鲁          CN-中国(需特殊配置)
+SK-斯洛伐克      US-美国
             "
             readp "请输入国家代码(大写字母 如US)：" guojia
             
