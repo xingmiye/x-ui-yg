@@ -1,4 +1,6 @@
 
+感谢勇哥倾情奉献的x-ui脚本，fork一下
+
 ### x-ui精简修改版一键脚本，面板中的相关设置尽可能与原作者[vaxilu](https://github.com/vaxilu/x-ui)保持一致
 
 ### 支持纯IPV4、纯IPV6、AMD64、ARM64的VPS直接安装
@@ -37,11 +39,11 @@
 
 ### 一键脚本：
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/xingmiye/x-ui-yg/main/install.sh)
 ```
 或
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/xingmiye/x-ui-yg/main/install.sh)
 ```
 -----------------------------------------------------
 ### x-ui-yg脚本菜单界面附加功能全开预览图（注：相关参数随意填写，仅供围观）
