@@ -24,7 +24,7 @@ v4v6() {
 # 显示当前状态
 show_status() {
     echo "------------------------------------------------------------------------------------"
-    if [[ -n $(ps -e | grep xuiwpph) ]]; then
+    if [[ -n $(ps -e | grep swpph) ]]; then
         s5port=$(cat /usr/local/psiphon/swpph.log 2>/dev/null | awk '{print $3}'| awk -F":" '{print $NF}')
         s5gj=$(cat /usr/local/psiphon/swpph.log 2>/dev/null | awk '{print $6}')
         case "$s5gj" in
