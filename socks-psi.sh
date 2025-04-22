@@ -83,7 +83,7 @@ ins() {
         esac
         
         yellow "正在下载xuiwpph二进制文件..."
-        if ! curl -L -o /usr/local/psiphon/swpph --retry 2 --insecure "https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/swpph_$cpu"; then
+        if ! curl -L -o /usr/local/psiphon/swpph --retry 2 --insecure "https://raw.githubusercontent.com/yonggekkk/x-ui-yg/main/xuiwpph_$cpu"; then
             red "文件下载失败!" && exit 1
         fi
         chmod +x /usr/local/psiphon/swpph
